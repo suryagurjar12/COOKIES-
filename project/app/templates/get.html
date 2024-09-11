@@ -1,5 +1,10 @@
 
 
-{{name}}
-{{age}}
-{{city}}
+<h1> get session from server</h1>
+{% for i in name %}
+{{i}}<hr/>
+<h4>my id is:{{i.id}}</h4>
+<h4>my name :{{i.name}}</h4>
+<h4>my city :{{i.city}}</h4>
+
+{% endfor %}
